@@ -12,6 +12,7 @@ import jakarta.validation.constraints.Pattern;
 @Table(name = "register")
 public class Employee {
 	
+	//Primary Key
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
